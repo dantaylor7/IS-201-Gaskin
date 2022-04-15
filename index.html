@@ -130,17 +130,18 @@
                 <div class="d-flex justify-content-end mb-4">
                     <script>
                         var links = [
-                            "google.com",
-                            "youtube.com",
-                            "reddit.com",
-                            "apple.com"
+                            "https://dantaylor7.github.io/IS-201-Gaskin/html/resume.html",
+                            "https://dantaylor7.github.io/IS-201-Gaskin/html/tableau.html",
+                            "https://dantaylor7.github.io/IS-201-Gaskin/html/inspiration.html",
+                            "https://dantaylor7.github.io/IS-201-Gaskin/html/aboutme.html",
+                            "https://dantaylor7.github.io/IS-201-Gaskin/html/contact.html"
                         ]
 
                         openSite = function () {
                             // get a random number between 0 and the number of links
                             var randIdx = Math.random() * links.length;
                             // round it, so it can be used as array index
-                            randIdx = parseInt(randIdx, 4);
+                            randIdx = parseInt(randIdx, 5);
                             // construct the link to be opened
                             var link = 'http://' + links[randIdx];
                             console.log("link", link)
